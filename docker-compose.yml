@@ -1,0 +1,14 @@
+version: '3'
+services:
+  quiz-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: quiz-api-container
+    ports:
+      - "3000:3000"  # Expose port 3000 to the host
+    volumes:
+      - .:/app  # Mount the current directory inside the container for live development
+    environment:
+      NODE_ENV: production
+
