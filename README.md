@@ -30,7 +30,10 @@ quiz-api/
 └── README.md                  # Project documentation
 
 ```
-
+### Docker Start
+```
+docker-compose up --build
+```
 ## API Endpoints
 ### 1. Create a New Quiz
 
