@@ -21,8 +21,6 @@ quiz-api/
 │   ├── routes/                # Express routes for quiz and answer endpoints
 │   │   ├── quizRoutes.ts
 │   │   └── answerRoutes.ts
-│   ├── utils/                 # Utility functions
-│   │   └── asyncHandler.ts    # Middleware to handle async route errors
 │   ├── app.ts                 # App initialization and route mounting
 │   └── server.ts              # Server setup and listening
 ├── package.json               # Dependencies and npm scripts
