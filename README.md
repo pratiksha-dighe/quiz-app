@@ -97,7 +97,3 @@ curl -X POST http://localhost:3000/api/answer \
 curl -X GET http://localhost:3000/api/result/{quizId}/{userId} \
 -H "Content-Type: application/json"
 ```
-
-
-
-
