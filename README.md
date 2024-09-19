@@ -30,6 +30,13 @@ quiz-api/
 └── README.md                  # Project documentation
 
 ```
+## Local start
+```
+npm install
+npm start
+```
+
+
 ### Docker Start
 ```
 docker-compose up --build
